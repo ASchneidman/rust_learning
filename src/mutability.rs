@@ -1,3 +1,5 @@
+use std::ops::MulAssign;
+
 pub fn mutability() {
   // allows one to modify s passed as an argument
   fn question(s: &mut String) {
